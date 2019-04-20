@@ -145,7 +145,8 @@ fixef(kFit)
 The model parameters $x_0$ and $\mu_{max}$ are constrained to be strictly 
 positive and their confidence interval should not include values below zero.
 Therefore, log-transformed versions, $x_{0l}$ and $\mu_{maxl}$ are fitted 
-with the model. This corresponds to assuming that they are log-normally 
+with the model. This corresponds to assuming that these parameters
+are log-normally 
 distributed. The values and distribution quantiles at original scale are simply
 found by taking the exponential of their values.
 

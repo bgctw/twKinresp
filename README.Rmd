@@ -1,0 +1,52 @@
+---
+output: github_document
+---
+
+<!-- 
+README.md is generated from README.Rmd. Please edit that file
+rmarkdown::render(
+  "README.Rmd", output_format = rmarkdown::github_document(html_preview = FALSE)) 
+-->
+
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "tools/README-"
+)
+```
+
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/twKinresp)](http://cran.r-project.org/package=twKinresp)
+[![Travis-CI Build Status](https://travis-ci.org/bgctw/twKinresp.svg?branch=master)](https://travis-ci.org/bgctw/twKinresp)
+
+
+## Overview
+
+The `twKinresp` package estimating microbial growth parameters
+by fitting kinetic models to microbial respiration data.
+
+- $x_0$: initial microbial biomass
+- $r_0$: initial microbial activity, and 
+- $\mu_{max}$: maximum growth rate of microbial community
+
+## Installation
+
+```{r, eval = FALSE}
+# From CRAN (in future)
+#install.packages("twKinresp")
+
+# First install dependencies
+install.packages(c("logitnorm","lmtest","nlme")
+  , repos=c("https://cloud.r-project.org","http://R-Forge.R-project.org"))
+# Install from github
+# install.packages("devtools")
+devtools::install_github("bgctw/twKinresp")
+```
+
+## Usage
+
+See the 
+[kinrespExperiment vignette](https://github.com/bgctw/twKinresp/blob/master/vignettes/kinrespExperiment.md) and other
+[package vignettes](https://github.com/bgctw/twKinresp/blob/master/vignettes/) 
+(*.md) for  examples.

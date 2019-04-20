@@ -11,7 +11,7 @@ Description:   Estimating microbial parameters:
     x0: initial microbial biomass, r0: initial microbial activity, and mumax: maximum growth rate of microbial community
     by fitting kinetic models to microbial respiration data of several replicates. 
 License: GPL (>=2)
-URL: https://r-forge.r-project.org/R/?group_id=889
+URL: https://github.com/bgctw/twKinresp
 LazyLoad: TRUE
 LazyData: TRUE
 VignetteBuilder: knitr

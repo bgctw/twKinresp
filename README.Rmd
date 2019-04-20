@@ -38,9 +38,7 @@ by fitting kinetic models to microbial respiration data.
 
 # First install dependencies
 # install.packages("devtools")
-install.packages(c("logitnorm","lmtest","nlme")
-  , repos=c("https://cloud.r-project.org","http://R-Forge.R-project.org"))
-devtools::install_github("bgctw/twNlme")
+install.packages(c("logitnorm","lmtest","nlme"))
 # Install from github
 devtools::install_github("bgctw/twKinresp")
 ```

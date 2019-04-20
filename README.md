@@ -23,10 +23,9 @@ Installation
 #install.packages("twKinresp")
 
 # First install dependencies
-install.packages(c("logitnorm","lmtest","twNlme")
-  , repos=c("https://cloud.r-project.org","http://R-Forge.R-project.org"))
-# Install from github
 # install.packages("devtools")
+install.packages(c("logitnorm","lmtest","nlme"))
+# Install from github
 devtools::install_github("bgctw/twKinresp")
 ```
 
